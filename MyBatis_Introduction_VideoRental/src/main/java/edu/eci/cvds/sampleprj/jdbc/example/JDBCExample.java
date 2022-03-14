@@ -46,7 +46,7 @@ public class JDBCExample {
             
             System.out.println("Valor total pedido 1:"+valorTotalPedido(con, 1));
             
-            List<String> prodsPedido=nombresProductosPedido(con, 1);
+            List<String> prodsPedido=nombresProductosPedido(con, 2);
             
             
             System.out.println("Productos del pedido 1:");
@@ -57,7 +57,7 @@ public class JDBCExample {
             System.out.println("-----------------------");
             
             
-            int suCodigoECI=2164958;
+            int suCodigoECI=2100645958;
             registrarNuevoProducto(con, suCodigoECI, "nicolas", 1000);            
             con.commit();
                         
