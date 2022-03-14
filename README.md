@@ -1,4 +1,4 @@
-# LABORATORIO 5 - ORM MYBATIS
+# LABORATORIO 7 - ORM MYBATIS
 ## *ESCUELA COLOMBIANA DE INGENIERÍA*
 ## *INTRODUCCIÓN A PROYECTOS WEB*
 
@@ -194,7 +194,7 @@ En este laboratorio se utilizará un 'framework' de persistencia. La base de dat
     ![](./src/valorTotal.png)
     3. registrarNuevoProducto - Use su código de estudiante para evitar colisiones.
     ![](./src/registrar.png)
-8. Verifique por medio de un cliente SQL, que la información retornada por el programa coincide con la que se encuentra almacenada en base de datos.
+8. Verifique por medio de un cliente SQL, que la información retornada por el programa coincide con la que se encuentra almacenada en base de datos.  
     ![](./src/consultaCliente.png)
     ![](./src/consultaCliente2.png)
     ![](./src/consultaCliente3.png)
