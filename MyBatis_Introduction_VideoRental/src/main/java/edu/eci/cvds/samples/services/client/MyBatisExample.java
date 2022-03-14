@@ -79,7 +79,7 @@ public class MyBatisExample {
             //System.out.println(itemMapper.consultarItem(2));
             
 
-            tipoItemMapper.addTipoItem("Hola Juan carlos");
+            tipoItemMapper.addTipoItem("Hola Juan carlos cp");
             TipoItem tipo = tipoItemMapper.getTipoItem(1);
             itemMapper.insertarItem(new Item(tipo, 2165877, "Juan", "Estudiante", new Date(), 10000, "formatoRenta", "undefined"));
             cm.agregarItemRentadoACliente(98347, 2165877, new Date(), new Date());
